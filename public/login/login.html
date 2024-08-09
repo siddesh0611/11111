@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <h1>Login</h1>
+    </div>
+    <div class="container">
+        <form id="loginForm" onsubmit="handleLogin(event)">
+            <div>
+
+                <label for="emailId">Email ID:</label>
+                <input type="text" name="emailId" id="emailId" required>
+
+                <label for="password">Password</label>
+                <input type="text" name="password" id="password" required>
+
+                <button type="submit">Sign Up</button>
+            </div>
+            <div id="message" style="color: crimson;"></div>
+        </form>
+    </div>
+    <div>
+        <label for="signUp">New user:</label>
+        <a href="../signup/signup.html" name="signUp">signup</a>
+    </div>
+    <div>
+        <a href="../forgotPassword/forgotPassword.html">forgot Password</a>
+    </div>
+
+
+
+    <script src="./login.js"></script>
+</body>
+
+</html>
