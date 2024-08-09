@@ -50,22 +50,3 @@ mongoose.connect('mongodb+srv://siddesh:AxdfMslSyIpgBlKr@cluster0.9f5ry.mongodb.
         console.log(err);
     })
 
-
-// User.hasMany(Expense);
-// Expense.belongsTo(User);
-
-// User.hasMany(Order);
-// Order.belongsTo(User);
-
-// User.hasMany(ForgotPassword);
-// ForgotPassword.belongsTo(User);
-
-
-
-// sequelize.sync()
-//     .then(result => {
-//         app.listen(3000);
-//     })
-//     .catch(err => {
-//         console.log(err);
-//     });
